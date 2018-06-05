@@ -45,6 +45,9 @@ class LaravelArgumentResolver implements ArgumentResolver
      */
     private function resolveArgument($arg)
     {
+        //enable us to pass array as paramater from behay.yml file
+        if (is_array($arg)) return $arg;
+
         if (substr($arg, 0, 1) === '@') {
             return $this->app->make(substr($arg, 1));
         }
