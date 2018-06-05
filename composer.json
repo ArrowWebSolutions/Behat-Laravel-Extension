@@ -1,7 +1,7 @@
 {
-    "name": "laracasts/behat-laravel-extension",
+    "name": "arrow-web-sol/behat-laravel-extension",
     "type": "behat-extension",
-    "description": "Laravel extension for Behat",
+    "description": "Laravel extension for Behat. Forked from laracasts/behat-laravel-extension",
     "keywords": ["laravel", "behat", "extension", "bdd"],
     "license": "MIT",
     "authors": [
